@@ -14,6 +14,7 @@ Tools: Microsoft Excel | SAP S/4HANA | SAP GUI
 ## 1. Project Overview
 
 The PHOS Smart Lamp project focuses on the design, industrialization, and production planning of an innovative floor lamp developed for professional waiting areas.
+<img width="1341" height="757" alt="Zero prototype PHOS_lamp" src="https://github.com/user-attachments/assets/3ce9dfa2-153a-4683-9395-a3b1fc312e28" />
 
 PHOS combines lighting functionality with digital communication capabilities, allowing businesses to display estimated waiting times and other information while providing an adjustable and energy-efficient lighting solution.
 
