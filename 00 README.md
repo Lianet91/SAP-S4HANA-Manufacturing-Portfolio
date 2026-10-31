@@ -62,6 +62,9 @@ Detailed production routings were developed for the principal structural compone
 - Final PHOS lamp assembly (LAMPADA_PHOS)
 
 Each routing was analyzed in terms of operation sequence, resource requirements, processing times, labor times, and manufacturing costs.
+The supply strategy selected is shown in the following image:
+<img width="1673" height="940" alt="Supply strategy" src="https://github.com/user-attachments/assets/1ed41032-ea01-477b-b7fc-628e0ede4adb" />
+
 
 ## 4. Production Planning and Scheduling
 
