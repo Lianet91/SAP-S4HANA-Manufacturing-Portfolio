@@ -1,0 +1,94 @@
+# 03 – SAP PP Customizing and Organizational Configuration
+
+## 1. Configuration Overview
+
+As part of the PHOS Smart Lamp manufacturing project, SAP organizational and planning parameters were defined to support the integration of purchasing, inventory management, and production planning processes.
+
+The configuration was designed around the manufacturing requirements established during the preliminary engineering analysis.
+
+The main areas addressed were:
+
+- Purchasing organization and material classification.
+- Material Requirements Planning (MRP) responsibilities.
+- Production scheduling responsibilities.
+- Storage location organization.
+- Material planning parameters.
+
+## 2. Purchasing Configuration
+
+A purchasing group and material groups were defined to support procurement activities and material classification.
+
+| Configuration Element | SAP Code | Description |
+|---|---|---|
+| Purchasing Group | ZPS | Purchasing Department |
+| Material Group | ZPMC | Chemical Materials |
+| Material Group | ZPME | Electronic Materials |
+| Material Group | ZPMM | Metallic Materials |
+| Material Group | ZPMP | Polymeric Materials |
+
+The material groups were established to classify purchased materials according to their characteristics and role in the manufacturing process.
+
+## 3. Production Planning Responsibilities
+
+Planning responsibilities were defined to support the management of material requirements and manufacturing schedules.
+
+| Configuration Element | SAP Code | Assigned Function |
+|---|---|---|
+| MRP Controller | ZPP | Material Requirements Planning |
+| Production Scheduler | ZPC | Production Scheduling |
+
+The MRP Controller was designated as the responsible planning entity for monitoring material requirements and procurement proposals.
+
+The Production Scheduler was designated to coordinate manufacturing scheduling activities.
+
+## 4. Storage Location Configuration
+
+Three storage locations were defined to distinguish materials according to their position in the manufacturing process.
+
+| SAP Code | Storage Location | Purpose |
+|---|---|---|
+| ZPMP | Raw Materials | Storage of purchased materials and components |
+| ZPSL | Semi-Finished Products | Storage of internally manufactured intermediate products |
+| ZPPF | Finished Products | Storage of completed PHOS lamps |
+
+This structure supports inventory visibility and the separation of materials throughout the production process.
+
+## 5. Material Master Planning Parameters
+
+The project adopted differentiated planning parameters according to the material type.
+
+| Material Type | MRP Type | Lot-Sizing Procedure |
+|---|---|---|
+| ROH – Raw Materials | VB | FX |
+| HALB – Semi-Finished Products | PD | EX |
+| FERT – Finished Products | PD | EX |
+
+These settings were selected to align procurement and production planning with the manufacturing model developed in Excel.
+
+Raw materials followed manual reorder point planning with fixed procurement quantities.
+
+Semi-finished and finished products followed deterministic material requirements planning with lot-for-lot sizing.
+
+The detailed planning rationale and lot-sizing calculations are documented in **02 – MRP Planning Strategies**.
+
+## 6. Integration with the PHOS Manufacturing Process
+
+The organizational configuration supports the relationship between purchasing, production planning, and inventory management.
+
+The intended operational structure is:
+
+1. Raw materials are classified into the corresponding material groups.
+2. Procurement activities are organized through the purchasing group.
+3. Material requirements are managed through the designated MRP responsibility.
+4. Manufacturing scheduling is coordinated through the production scheduling responsibility.
+5. Purchased materials, intermediate products, and finished lamps are managed through their respective storage locations.
+
+This configuration provides an organizational foundation for the PHOS manufacturing process in SAP S/4HANA.
+
+## 7. Conclusion
+
+The SAP configuration phase focused on defining the organizational elements and planning responsibilities required for the PHOS manufacturing scenario.
+
+The purchasing group, material groups, MRP controller, production scheduler, and storage locations were structured to support material procurement, production planning, and inventory management.
+
+Together with the MRP parameters documented in the previous section, these settings establish the organizational framework for the PHOS Smart Lamp manufacturing process.
