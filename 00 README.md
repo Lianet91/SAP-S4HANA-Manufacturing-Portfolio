@@ -86,6 +86,9 @@ The planning model considered the following production quantities:
 
 These parameters formed the basis for the subsequent material requirements and manufacturing planning analysis.
 
+The resulting BOM is as shown:
+<img width="1672" height="941" alt="BOM_PHOS_lamp" src="https://github.com/user-attachments/assets/ef36768e-a4e3-4d45-b084-26026d77961d" />
+
 ## 5. Industrial Cost Analysis
 
 A manufacturing cost model was developed to evaluate the economic feasibility of the product.
