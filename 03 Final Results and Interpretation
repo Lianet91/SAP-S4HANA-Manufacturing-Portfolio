@@ -1,0 +1,42 @@
+The PHOS Smart Lamp project integrated product design, manufacturing process engineering, production scheduling, cost optimization, and SAP S/4HANA implementation.
+
+## Key Results
+
+| Performance Indicator | Result |
+|---|---:|
+| Annual Production Volume | 6,930 units |
+| Production Lot Size | 231 units |
+| Annual Production Lots | 30 |
+| Bill of Materials | 5 levels |
+| Raw Material Types | 11 |
+| Semi-Finished Products | 5 |
+| Manufacturing Cost | €207.37/unit |
+| Material Waste Cost | €3.13/unit |
+| Total Industrial Product Cost | €229.46/unit |
+| Final Selling Price (including VAT) | €371.72/unit |
+
+## Production and Material Optimization
+
+Manufacturing operations were organized through defined work centers, production routings, and Gantt-based scheduling.
+
+A Cutting Stock optimization model was applied to reduce material waste, obtaining 12 bases per aluminum sheet and an estimated waste cost of €3.13 per lamp.
+
+The selected production lot of 231 units supported the planned annual production of 6,930 lamps.
+
+## Excel vs. SAP Cost Comparison
+
+One of the main outcomes was the comparison between standard production costs calculated manually in Excel and those obtained through SAP.
+
+The analysis covered individual semi-finished products, the finished lamp, and cumulative cost deviations.
+
+The comparison showed small differences between the two calculation methods, supporting the consistency of the engineering cost model and its implementation in SAP.
+
+## Interpretation
+
+The results demonstrate how engineering calculations can be translated into an integrated manufacturing planning environment.
+
+Production scheduling, material requirements, lot-sizing decisions, and cost calculations provided a quantitative foundation for SAP PP/MM configuration.
+
+The comparison between Excel and SAP also provided a means of validating the manufacturing cost structure and identifying deviations between the two approaches.
+
+**Final Outcome:** The project established a complete manufacturing planning model for the PHOS Smart Lamp, connecting product engineering, production optimization, material management, and SAP-based cost analysis.
